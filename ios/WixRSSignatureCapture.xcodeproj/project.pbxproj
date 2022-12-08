@@ -25,7 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0C53A99E1B56113D004F2642 /* libRSSignatureCapture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRSSignatureCapture.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C53A99E1B56113D004F2642 /* libWixRSSignatureCapture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWixRSSignatureCapture.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C53A9EC1B56134F004F2642 /* RSSignatureViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSignatureViewManager.h; sourceTree = "<group>"; };
 		0C53A9ED1B56134F004F2642 /* RSSignatureViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSignatureViewManager.m; sourceTree = "<group>"; };
 		0C53A9EF1B5613AF004F2642 /* PPSSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSSignatureView.h; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		0C53A99F1B56113D004F2642 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C53A99E1B56113D004F2642 /* libRSSignatureCapture.a */,
+				0C53A99E1B56113D004F2642 /* libWixRSSignatureCapture.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,9 +69,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0C53A99D1B56113D004F2642 /* RSSignatureCapture */ = {
+		0C53A99D1B56113D004F2642 /* WixRSSignatureCapture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C53A9B21B56113D004F2642 /* Build configuration list for PBXNativeTarget "RSSignatureCapture" */;
+			buildConfigurationList = 0C53A9B21B56113D004F2642 /* Build configuration list for PBXNativeTarget "WixRSSignatureCapture" */;
 			buildPhases = (
 				0C53A99A1B56113D004F2642 /* Sources */,
 				0C53A99B1B56113D004F2642 /* Frameworks */,
@@ -81,9 +81,9 @@
 			);
 			dependencies = (
 			);
-			name = RSSignatureCapture;
+			name = WixRSSignatureCapture;
 			productName = RSSignatureCapture;
-			productReference = 0C53A99E1B56113D004F2642 /* libRSSignatureCapture.a */;
+			productReference = 0C53A99E1B56113D004F2642 /* libWixRSSignatureCapture.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -100,11 +100,12 @@
 					};
 				};
 			};
-			buildConfigurationList = 0C53A9991B56113D004F2642 /* Build configuration list for PBXProject "RSSignatureCapture" */;
+			buildConfigurationList = 0C53A9991B56113D004F2642 /* Build configuration list for PBXProject "WixRSSignatureCapture" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 0C53A9951B56113D004F2642;
@@ -112,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C53A99D1B56113D004F2642 /* RSSignatureCapture */,
+				0C53A99D1B56113D004F2642 /* WixRSSignatureCapture */,
 			);
 		};
 /* End PBXProject section */
@@ -242,7 +243,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C53A9991B56113D004F2642 /* Build configuration list for PBXProject "RSSignatureCapture" */ = {
+		0C53A9991B56113D004F2642 /* Build configuration list for PBXProject "WixRSSignatureCapture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C53A9B01B56113D004F2642 /* Debug */,
@@ -251,7 +252,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C53A9B21B56113D004F2642 /* Build configuration list for PBXNativeTarget "RSSignatureCapture" */ = {
+		0C53A9B21B56113D004F2642 /* Build configuration list for PBXNativeTarget "WixRSSignatureCapture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C53A9B31B56113D004F2642 /* Debug */,

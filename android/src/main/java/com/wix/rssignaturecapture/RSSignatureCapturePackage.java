@@ -1,4 +1,4 @@
-package com.rssignaturecapture;
+package com.wix.rssignaturecapture;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;

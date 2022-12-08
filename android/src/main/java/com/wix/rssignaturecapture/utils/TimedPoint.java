@@ -1,4 +1,4 @@
-package com.rssignaturecapture.utils;
+package com.wix.rssignaturecapture.utils;
 
 public class TimedPoint {
     public final float x;

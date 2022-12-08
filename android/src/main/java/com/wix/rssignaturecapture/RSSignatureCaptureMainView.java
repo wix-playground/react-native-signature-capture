@@ -1,4 +1,4 @@
-package com.rssignaturecapture;
+package com.wix.rssignaturecapture;
 
 import android.util.Log;
 import android.view.ViewGroup;

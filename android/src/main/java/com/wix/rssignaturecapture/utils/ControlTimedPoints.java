@@ -1,4 +1,4 @@
-package com.rssignaturecapture.utils;
+package com.wix.rssignaturecapture.utils;
 
 /**
  * Created by gcacace on 28/02/14.
