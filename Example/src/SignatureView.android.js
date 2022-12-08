@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {View, Text, Modal, Platform} from 'react-native';
-import SignatureCapture from 'react-native-signature-capture';
+import SignatureCapture from '@wix/react-native-signature-capture';
 
 const toolbarHeight = Platform.select({
   android: 0,
