@@ -1,6 +1,6 @@
 {
-  "name": "react-native-signature-capture",
-  "version": "0.4.11",
+  "name": "wix-react-native-signature-capture",
+  "version": "1.0.0",
   "description": "Lets users sign their signatures",
   "main": "SignatureCapture.js",
   "scripts": {
@@ -8,12 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RepairShopr/react-native-signature-capture.git"
+    "url": "https://github.com/wix-playground/react-native-signature-capture"
   },
   "keywords": [
     "react-component",
     "react-native",
     "ios",
+    "android",
     "signature"
   ],
   "peerDependencies": {
